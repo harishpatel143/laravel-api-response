@@ -4,7 +4,7 @@ Laravel API response structure class for json response.
 In this package there is many build in methods for different status code wise response for API request.
 
 
-###How to use
+### How to use
 
     For use this package, You just need to create a object of the ApiResponse class
 
