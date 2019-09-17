@@ -1,0 +1,26 @@
+{
+    "name": "harishdpatel/apiresponse",
+    "description": "This is common API response structre for laravel based project. It can be used in laravel and lumen",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Harish Patel",
+            "email": "harishdpatel143@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "HarishPatel\\ApiResponse\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HarishPatel\\ApiResponse\\ApiResponseProvider"
+            ]
+        }
+    }
+}
