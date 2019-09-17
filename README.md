@@ -1,12 +1,12 @@
 # laravel-api-response
 
 Laravel API response structure class for json response.
-In this package there is many build in methods for different status code wise response for API request.
+In this package, there are many build-in methods for different status code wise response for an API request.
 
 
 ### How to use
 
-    For use this package, You just need to create a object of the ApiResponse class
+For use this package, You just need to create an object of the **ApiResponse** class
 
 Step -1: In your Controller  
 ```php
@@ -42,7 +42,7 @@ Step-2: Use the **$apiResponse** object for response in your methods.
 
 ```
 
-You will receive api response like below
+You will receive API response like below
 
 ```json
 
@@ -64,7 +64,7 @@ You will receive api response like below
 ```
 
 
-There are many other use full methods for api response method.
+There are many other use full methods for API response method.
 
 ```php
 
@@ -99,7 +99,7 @@ return $this->apiResponse->respondExceptionError($status, $message, $status_code
 ```
 
 
-**The package have bellow response structure from all the method**
+**The package has a bellow response structure from all the method**
 
 ```
 
@@ -120,7 +120,7 @@ In Debug mode
 
 ```
 
-**How ever if you want to change the response structure or add any new methods in for that does not exists in our package, You just need override the getResponseStructure in a Custom response class and use that class to the application.**
+**However, if you want to change the response structure or add any new methods in for that does not exist in our package, You just need to create a custom response class and extend **ApiResponse** class. Override the **getResponseStructure** in a Custom response class and use that class to the application.**
 ##### e.g.
 
 ```php
